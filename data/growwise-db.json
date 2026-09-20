@@ -1,0 +1,568 @@
+{
+  "users": [
+    {
+      "id": "demo-user-alex",
+      "name": "Alex Chen",
+      "real_name": "Alexander Chen",
+      "nickname": "Alex",
+      "student_id": "",
+      "college_name": "",
+      "email": "alex@growwise.edu",
+      "password_hash": "f3f4b004f11d4d55f1f1a71b8f01f56694b5962a9865fa181166fce8e43b1ecab4d3e0bdf555be453f9b55027be68e430b17a5ed60a3fff9f0af346467831e10",
+      "salt": "217e8ca6e98705308429e0784968ab1a",
+      "age": 20,
+      "education_level": "Undergraduate (3rd Year)",
+      "main_growth_goal": "Speak English more confidently & conquer presentation anxiety",
+      "onboarding_completed": true,
+      "streak_count": 5,
+      "last_active_date": "2026-09-12",
+      "created_at": "2026-08-29T11:54:17.234Z",
+      "updated_at": "2026-09-12T11:54:17.234Z"
+    }
+  ],
+  "user_goals": [
+    {
+      "id": "goal-1",
+      "user_id": "demo-user-alex",
+      "title": "Become more confident during presentations",
+      "description": "Overcome anxiety when speaking in front of the class for the final semester capstone presentation.",
+      "category": "Confidence",
+      "deadline": "2026-10-15",
+      "progress": 75,
+      "status": "active",
+      "milestones": [
+        {
+          "id": "m-1",
+          "text": "Practice presentation alone in room",
+          "completed": true
+        },
+        {
+          "id": "m-2",
+          "text": "Record myself on video and review body language",
+          "completed": true
+        },
+        {
+          "id": "m-3",
+          "text": "Present slides to a close friend for feedback",
+          "completed": true
+        },
+        {
+          "id": "m-4",
+          "text": "Deliver full presentation confidently in seminar",
+          "completed": false
+        }
+      ],
+      "created_at": "2026-09-02T11:54:17.234Z",
+      "updated_at": "2026-09-12T11:54:17.234Z"
+    },
+    {
+      "id": "goal-2",
+      "user_id": "demo-user-alex",
+      "title": "Master Campus Placement & Interview English",
+      "description": "Formulate concise, structured answers (STAR method) to behavioral questions without stumbling on vocabulary.",
+      "category": "English",
+      "deadline": "2026-11-01",
+      "progress": 50,
+      "status": "active",
+      "milestones": [
+        {
+          "id": "m-5",
+          "text": "Craft a 90-second \"Tell me about yourself\" elevator pitch",
+          "completed": true
+        },
+        {
+          "id": "m-6",
+          "text": "Practice 10 situational interview prompts with GrowWise AI",
+          "completed": true
+        },
+        {
+          "id": "m-7",
+          "text": "Conduct a peer mock interview with a classmate",
+          "completed": false
+        },
+        {
+          "id": "m-8",
+          "text": "Finalize resume discussion points and technical project summaries",
+          "completed": false
+        }
+      ],
+      "created_at": "2026-09-05T11:54:17.234Z",
+      "updated_at": "2026-09-12T11:54:17.234Z"
+    },
+    {
+      "id": "goal-3",
+      "user_id": "demo-user-alex",
+      "title": "Active classroom engagement",
+      "description": "Raise hand and ask at least one relevant question in every lecture this month.",
+      "category": "Communication",
+      "deadline": "2026-10-30",
+      "progress": 33,
+      "status": "active",
+      "milestones": [
+        {
+          "id": "m-9",
+          "text": "Note down questions in advance during reading",
+          "completed": true
+        },
+        {
+          "id": "m-10",
+          "text": "Ask professor a question during office hours",
+          "completed": false
+        },
+        {
+          "id": "m-11",
+          "text": "Speak up in a 40-student classroom discussion",
+          "completed": false
+        }
+      ],
+      "created_at": "2026-09-08T11:54:17.234Z",
+      "updated_at": "2026-09-12T11:54:17.234Z"
+    }
+  ],
+  "journal_entries": [
+    {
+      "id": "journal-1",
+      "user_id": "demo-user-alex",
+      "title": "Overcoming the fear of speaking in seminar",
+      "content": "Today Professor Miller asked for volunteers to discuss our literature review. Usually my heart races and my palms sweat whenever I think about raising my hand. But today I remembered the advice: focus on sharing one helpful point rather than trying to look impressive. I raised my hand and spoke for 45 seconds. My voice trembled a bit at the start, but nobody judged me. In fact, a classmate nodded along. Feeling proud of this small step.",
+      "mood": "great",
+      "ai_reflection": {
+        "themes": [
+          "Courage in public speaking",
+          "Reframing mindset from performance to sharing",
+          "Progress over perfection"
+        ],
+        "emotions": [
+          "Initial nervousness",
+          "Relief",
+          "Quiet pride and validation"
+        ],
+        "patterns": "Notice how shifting your intention from \"impressing everyone\" to \"sharing one point\" immediately reduced your internal resistance.",
+        "positiveObservations": [
+          "You took concrete action despite physical sensations of fear (heart racing).",
+          "You recognized that people were attentive rather than critical."
+        ],
+        "questionsForReflection": [
+          "What is one phrase or cue you can remind yourself of next time you feel that physical hesitation before speaking?"
+        ],
+        "generatedAt": "2026-09-10T11:54:17.234Z"
+      },
+      "created_at": "2026-09-10T11:54:17.234Z",
+      "updated_at": "2026-09-10T11:54:17.234Z"
+    },
+    {
+      "id": "journal-2",
+      "user_id": "demo-user-alex",
+      "title": "Midterm week fatigue & finding steady footing",
+      "content": "Felt quite overwhelmed this afternoon balancing three engineering assignments with group discussion prep. I caught myself comparing my progress with others who seem to finish their reports effortlessly. Had a short walk around the campus pond, called my older sister for 10 minutes, and mapped out a realistic schedule. Reminding myself that my timeline is my own.",
+      "mood": "good",
+      "ai_reflection": {
+        "themes": [
+          "Comparison traps",
+          "Healthy social support",
+          "Resetting boundaries"
+        ],
+        "emotions": [
+          "Overwhelm",
+          "Vulnerability",
+          "Reassurance"
+        ],
+        "patterns": "Stepping outside and reaching out to a trusted family member helped interrupt your spiral of self-comparison.",
+        "positiveObservations": [
+          "You actively chose healthy real-world support rather than isolating yourself.",
+          "You turned vague anxiety into an actionable schedule."
+        ],
+        "questionsForReflection": [
+          "How can you celebrate the work you finished today rather than fixating on what remains for tomorrow?"
+        ],
+        "generatedAt": "2026-09-08T11:54:17.234Z"
+      },
+      "created_at": "2026-09-08T11:54:17.234Z",
+      "updated_at": "2026-09-08T11:54:17.234Z"
+    },
+    {
+      "id": "journal-3",
+      "user_id": "demo-user-alex",
+      "title": "English conversation club notes",
+      "content": "Attended the campus English conversation circle today. I paused a few times looking for the word \"pragmatic\" and used \"practical\" instead. The facilitator smiled and said that was totally clear. It made me realize good communication is about connection, not having a dictionary in your head.",
+      "mood": "great",
+      "ai_reflection": {
+        "themes": [
+          "Language fluency vs communication",
+          "Self-acceptance",
+          "Social ease"
+        ],
+        "emotions": [
+          "Curiosity",
+          "Confidence",
+          "Belonging"
+        ],
+        "patterns": "You are beginning to treat conversational pauses as natural rather than as personal failures.",
+        "positiveObservations": [
+          "Adapting your vocabulary on the fly demonstrates real conversational agility.",
+          "You left the session energized rather than self-critical."
+        ],
+        "questionsForReflection": [
+          "Which topic would you feel excited to discuss at the next meeting?"
+        ],
+        "generatedAt": "2026-09-06T11:54:17.234Z"
+      },
+      "created_at": "2026-09-06T11:54:17.234Z",
+      "updated_at": "2026-09-06T11:54:17.234Z"
+    },
+    {
+      "id": "journal-4",
+      "user_id": "demo-user-alex",
+      "title": "Giving constructive feedback to my lab partner",
+      "content": "I had to point out an inconsistency in our experimental data. In the past I would have stayed quiet to avoid awkwardness. Today I said: \"I want to make sure our submission is solid. Look at row 18.\" He appreciated it immediately and thanked me.",
+      "mood": "great",
+      "created_at": "2026-09-05T11:54:17.234Z",
+      "updated_at": "2026-09-05T11:54:17.234Z"
+    },
+    {
+      "id": "journal-5",
+      "user_id": "demo-user-alex",
+      "title": "Imposter feelings during career fair prep",
+      "content": "Looking at other students resumes on LinkedIn made me feel inadequate. Grounded myself by listing 3 real projects I built from scratch with my own hands. I do not need to be ahead of everyone; I only need to be proud of my own craftsmanship.",
+      "mood": "okay",
+      "created_at": "2026-09-04T11:54:17.234Z",
+      "updated_at": "2026-09-04T11:54:17.234Z"
+    },
+    {
+      "id": "journal-6",
+      "user_id": "demo-user-alex",
+      "title": "Ten-minute campus morning stroll",
+      "content": "Left my phone in my backpack and walked by the university gardens before my 9 AM lecture. Noticed how crisp the autumn air felt. My mind felt significantly clearer and less cluttered for the rest of the morning.",
+      "mood": "good",
+      "created_at": "2026-09-03T11:54:17.234Z",
+      "updated_at": "2026-09-03T11:54:17.234Z"
+    },
+    {
+      "id": "journal-7",
+      "user_id": "demo-user-alex",
+      "title": "Receiving a B-minus on my midterm report",
+      "content": "At first I felt an instant flash of disappointment. Then I reviewed the grader notes carefully. The logic was sound; only the formatting and citations needed tightening. Scheduled office hours next Tuesday to clarify.",
+      "mood": "okay",
+      "created_at": "2026-09-02T11:54:17.234Z",
+      "updated_at": "2026-09-02T11:54:17.234Z"
+    },
+    {
+      "id": "journal-8",
+      "user_id": "demo-user-alex",
+      "title": "Mock interview with campus career advisor",
+      "content": "Practiced answering \"Tell me about yourself\" without rambling. Advisor recommended using the Present-Past-Future framework. Felt 10x more organized by the second take.",
+      "mood": "great",
+      "created_at": "2026-09-01T11:54:17.234Z",
+      "updated_at": "2026-09-01T11:54:17.234Z"
+    },
+    {
+      "id": "journal-9",
+      "user_id": "demo-user-alex",
+      "title": "Active listening during group project meeting",
+      "content": "Intentionally paused before speaking today to really digest what Sarah was proposing. Building on someone else idea felt much more collaborative than competing to be the loudest voice in the room.",
+      "mood": "good",
+      "created_at": "2026-08-31T11:54:17.234Z",
+      "updated_at": "2026-08-31T11:54:17.234Z"
+    }
+  ],
+  "daily_activities": [
+    {
+      "id": "daily-mind-demo-user-alex-2026-09-08",
+      "user_id": "demo-user-alex",
+      "activity_type": "Mind",
+      "activity_text": "Write down what felt draining vs. what gave you quiet energy today.",
+      "completed": true,
+      "activity_date": "2026-09-08",
+      "completed_at": "2026-09-08T12:54:17.234Z"
+    },
+    {
+      "id": "daily-comm-demo-user-alex-2026-09-08",
+      "user_id": "demo-user-alex",
+      "activity_type": "Communication",
+      "activity_text": "Explain a technical concept simply as if to a middle school student.",
+      "completed": true,
+      "activity_date": "2026-09-08",
+      "completed_at": "2026-09-08T13:54:17.234Z"
+    },
+    {
+      "id": "daily-conf-demo-user-alex-2026-09-08",
+      "user_id": "demo-user-alex",
+      "activity_type": "Confidence",
+      "activity_text": "Introduce yourself by name with a firm, calm voice to a peer.",
+      "completed": true,
+      "activity_date": "2026-09-08",
+      "completed_at": "2026-09-08T14:54:17.234Z"
+    },
+    {
+      "id": "daily-mind-demo-user-alex-2026-09-09",
+      "user_id": "demo-user-alex",
+      "activity_type": "Mind",
+      "activity_text": "Recall a small win you almost dismissed without celebrating.",
+      "completed": true,
+      "activity_date": "2026-09-09",
+      "completed_at": "2026-09-09T12:54:17.234Z"
+    },
+    {
+      "id": "daily-comm-demo-user-alex-2026-09-09",
+      "user_id": "demo-user-alex",
+      "activity_type": "Communication",
+      "activity_text": "Express sincere appreciation to someone who helped you this week.",
+      "completed": true,
+      "activity_date": "2026-09-09",
+      "completed_at": "2026-09-09T13:54:17.234Z"
+    },
+    {
+      "id": "daily-conf-demo-user-alex-2026-09-09",
+      "user_id": "demo-user-alex",
+      "activity_type": "Confidence",
+      "activity_text": "Send an email asking for advice without apologizing for asking.",
+      "completed": true,
+      "activity_date": "2026-09-09",
+      "completed_at": "2026-09-09T14:54:17.234Z"
+    },
+    {
+      "id": "daily-mind-demo-user-alex-2026-09-10",
+      "user_id": "demo-user-alex",
+      "activity_type": "Mind",
+      "activity_text": "Identify a moment today when you chose patience over frustration.",
+      "completed": true,
+      "activity_date": "2026-09-10",
+      "completed_at": "2026-09-10T12:54:17.234Z"
+    },
+    {
+      "id": "daily-comm-demo-user-alex-2026-09-10",
+      "user_id": "demo-user-alex",
+      "activity_type": "Communication",
+      "activity_text": "Practice pausing for 2 seconds before answering a question.",
+      "completed": true,
+      "activity_date": "2026-09-10",
+      "completed_at": "2026-09-10T13:54:17.234Z"
+    },
+    {
+      "id": "daily-conf-demo-user-alex-2026-09-10",
+      "user_id": "demo-user-alex",
+      "activity_type": "Confidence",
+      "activity_text": "Walk with shoulders relaxed and eyes forward across campus plaza.",
+      "completed": true,
+      "activity_date": "2026-09-10",
+      "completed_at": "2026-09-10T14:54:17.234Z"
+    },
+    {
+      "id": "daily-mind-demo-user-alex-2026-09-11",
+      "user_id": "demo-user-alex",
+      "activity_type": "Mind",
+      "activity_text": "Acknowledge one personal boundary you maintained today.",
+      "completed": true,
+      "activity_date": "2026-09-11",
+      "completed_at": "2026-09-11T12:54:17.234Z"
+    },
+    {
+      "id": "daily-comm-demo-user-alex-2026-09-11",
+      "user_id": "demo-user-alex",
+      "activity_type": "Communication",
+      "activity_text": "Summarize an interesting article or video out loud in 60 seconds.",
+      "completed": true,
+      "activity_date": "2026-09-11",
+      "completed_at": "2026-09-11T13:54:17.234Z"
+    },
+    {
+      "id": "daily-conf-demo-user-alex-2026-09-11",
+      "user_id": "demo-user-alex",
+      "activity_type": "Confidence",
+      "activity_text": "Sit in the front two rows of a lecture or seminar.",
+      "completed": true,
+      "activity_date": "2026-09-11",
+      "completed_at": "2026-09-11T14:54:17.234Z"
+    },
+    {
+      "id": "daily-mind-2026-09-12",
+      "user_id": "demo-user-alex",
+      "activity_type": "Mind",
+      "activity_text": "Write one thing you learned about how you handle pressure this week.",
+      "completed": true,
+      "activity_date": "2026-09-12",
+      "completed_at": "2026-09-12T11:54:17.234Z"
+    },
+    {
+      "id": "daily-comm-2026-09-12",
+      "user_id": "demo-user-alex",
+      "activity_type": "Communication",
+      "activity_text": "Speak for one minute without stopping about a hobby or book you enjoy.",
+      "completed": true,
+      "activity_date": "2026-09-12",
+      "completed_at": "2026-09-12T11:54:17.234Z"
+    },
+    {
+      "id": "daily-conf-2026-09-12",
+      "user_id": "demo-user-alex",
+      "activity_type": "Confidence",
+      "activity_text": "Greet someone you normally walk past in silence (e.g. a campus librarian or classmate).",
+      "completed": false,
+      "activity_date": "2026-09-12"
+    }
+  ],
+  "confidence_activities": [
+    {
+      "id": "conf-b-1",
+      "user_id": "demo-user-alex",
+      "activity": "Introduce yourself out loud for 30 seconds clearly",
+      "difficulty": "Beginner",
+      "category": "Speaking",
+      "points": 10,
+      "completed": true,
+      "completed_at": "2026-09-07T11:54:17.234Z",
+      "user_reflection": "Timed myself on my phone. First try was rushed; second try felt composed."
+    },
+    {
+      "id": "conf-b-2",
+      "user_id": "demo-user-alex",
+      "activity": "Ask one clarifying question in class or lecture",
+      "difficulty": "Beginner",
+      "category": "Classroom",
+      "points": 15,
+      "completed": true,
+      "completed_at": "2026-09-10T11:54:17.234Z",
+      "user_reflection": "Asked about slide 14. Professor appreciated the question."
+    },
+    {
+      "id": "conf-b-3",
+      "user_id": "demo-user-alex",
+      "activity": "Maintain friendly eye contact during a brief greeting",
+      "difficulty": "Beginner",
+      "category": "Presence",
+      "points": 10,
+      "completed": true,
+      "completed_at": "2026-09-09T11:54:17.234Z"
+    },
+    {
+      "id": "conf-b-4",
+      "user_id": "demo-user-alex",
+      "activity": "Speak one full sentence in English to a peer or instructor",
+      "difficulty": "Beginner",
+      "category": "Language",
+      "points": 10,
+      "completed": true,
+      "completed_at": "2026-09-11T11:54:17.234Z"
+    },
+    {
+      "id": "conf-i-1",
+      "user_id": "demo-user-alex",
+      "activity": "Speak for 2 minutes continuously about your favorite project",
+      "difficulty": "Intermediate",
+      "category": "Speaking",
+      "points": 25,
+      "completed": true,
+      "completed_at": "2026-09-11T11:54:17.234Z",
+      "user_reflection": "Used the STAR technique. Structured my points into beginning, middle, and results."
+    },
+    {
+      "id": "conf-i-2",
+      "user_id": "demo-user-alex",
+      "activity": "Give a 3-minute mini presentation to a friend or study group",
+      "difficulty": "Intermediate",
+      "category": "Presentation",
+      "points": 30,
+      "completed": false
+    },
+    {
+      "id": "conf-i-3",
+      "user_id": "demo-user-alex",
+      "activity": "Start a casual conversation with a new classmate before lecture",
+      "difficulty": "Intermediate",
+      "category": "Social",
+      "points": 20,
+      "completed": true,
+      "completed_at": "2026-09-10T11:54:17.234Z"
+    },
+    {
+      "id": "conf-i-4",
+      "user_id": "demo-user-alex",
+      "activity": "Express a polite dissenting opinion in a group discussion",
+      "difficulty": "Intermediate",
+      "category": "Communication",
+      "points": 25,
+      "completed": false
+    },
+    {
+      "id": "conf-a-1",
+      "user_id": "demo-user-alex",
+      "activity": "Complete a full mock behavioral interview session",
+      "difficulty": "Advanced",
+      "category": "Interview",
+      "points": 50,
+      "completed": false
+    },
+    {
+      "id": "conf-a-2",
+      "user_id": "demo-user-alex",
+      "activity": "Lead a 5-minute topic opening in a group discussion (GD)",
+      "difficulty": "Advanced",
+      "category": "Leadership",
+      "points": 45,
+      "completed": false
+    },
+    {
+      "id": "conf-a-3",
+      "user_id": "demo-user-alex",
+      "activity": "Deliver a presentation to a seminar or audience with Q&A",
+      "difficulty": "Advanced",
+      "category": "Presentation",
+      "points": 50,
+      "completed": false
+    },
+    {
+      "id": "conf-a-4",
+      "user_id": "demo-user-alex",
+      "activity": "Participate actively in a structured debate or panel",
+      "difficulty": "Advanced",
+      "category": "Public Speaking",
+      "points": 40,
+      "completed": false
+    }
+  ],
+  "english_progress": [
+    {
+      "id": "eng-1",
+      "user_id": "demo-user-alex",
+      "grammar_score": 74,
+      "vocabulary_score": 70,
+      "fluency_score": 65,
+      "confidence_score": 72,
+      "exercises_completed": 14,
+      "recorded_date": "2026-09-12"
+    }
+  ],
+  "chat_sessions": [
+    {
+      "id": "session-demo",
+      "user_id": "demo-user-alex",
+      "title": "Confidence & Communication Coaching",
+      "mode": "general",
+      "created_at": "2026-09-11T11:54:17.234Z",
+      "messages": [
+        {
+          "id": "msg-1",
+          "session_id": "session-demo",
+          "sender": "assistant",
+          "message": "Welcome to GrowWise, Alex 🌱 I'm your growth companion and communication coach. What's on your mind today — would you like to reflect on a situation, practice your presentation delivery, or tackle a confidence challenge?",
+          "timestamp": "2026-09-12T10:54:17.234Z"
+        },
+        {
+          "id": "msg-2",
+          "session_id": "session-demo",
+          "sender": "user",
+          "message": "I have to introduce our group project in front of 30 students tomorrow. I keep worrying that I'll forget what to say and pause awkwardly.",
+          "timestamp": "2026-09-12T10:57:37.234Z"
+        },
+        {
+          "id": "msg-3",
+          "session_id": "session-demo",
+          "sender": "assistant",
+          "message": "It is completely normal to feel that rush of adrenaline before presenting. Let's look at this using our four-step anchor:\n\n**1. Situation:** You are opening your team's project presentation tomorrow.\n**2. Thought:** 'If I pause, everyone will judge me.'\n**3. Reality:** Audiences actually perceive short 2-3 second pauses as thoughtful and confident, not broken. No one expects a recitation robot.\n**4. Action:** Let's practice your opening 3 sentences right now. What is the single main question your project solves?",
+          "action_type": "confidence",
+          "timestamp": "2026-09-12T11:00:57.234Z"
+        }
+      ]
+    }
+  ]
+}
